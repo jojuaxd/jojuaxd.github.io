@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Joji</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #28272F;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1100px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1100px;
+  background-color: #6C515A;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #612037;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+img {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+p {
+	color: white;
+}
+
+ol {
+	color: white;
+    text-align: left;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Joji</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="about_him.html">About him</a></li>
+      <li><a href="top_albums.html">Top Albums</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="tour.html">Tour</a></li>
+    </ul>
+    <img src="https://steamuserimages-a.akamaihd.net/ugc/919168785807096587/61026AE6386698EF0BFE7EA8BD08317D522C2C19/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true" height=130 width=130 />
+  </nav>
+  
+  <article>
+ 	<h1 style="font-size:50px;color:white;border:10px solid black;">Top Albums</h1>
+    
+    <table align="center">
+    
+    <tr>
+    <td><th style="color:white;">BALLADS 1</th></td>
+    <td><img src="https://i.scdn.co/image/ab67616d0000b2733bafd8fe1e52ac2d99a8d83d" height="250" width="250"/></td>
+    <td>
+    	<ol>
+        <li>Attention</li>
+        <li>Slow dancing in the dark</li>
+        <li>Test drive</li>
+        <li>Wanted u</li>
+        <li>Cant get over you</li>
+        <li>Yeah right</li>
+        <li>Why am i still in LA</li>
+        <li>No fun</li>
+        <li>Come Thru</li>
+        <li>R.I.P.</li>
+        <li>I'll see you in 40</li>
+        
+        </ol>
+    </td>
+    </tr>
+    
+    <tr>
+    <td><th style="color:white;">In Tongues</th></td>
+    <td><img src="https://media.pitchfork.com/photos/5a95e01230a20e587b2d1128/1:1/w_600/intonguesjoji.jpg" height="250" width="250"/></td>
+    <td>
+    	<ol>
+        <li>Will He</li>
+        <li>Pills</li>
+        <li>Demons</li>
+        <li>Window</li>
+        <li>worldstar money</li>
+        <li>Plastic Taste</li>
+        <li>I Don't Wanna waste My Time</li>
+        
+        </ol>
+    </td>
+    </tr>
+ <tr>
+    <td><th style="color:white;">Head in the clouds II</th></td>
+    <td><img src="https://images.complex.com/complex/image/upload/c_crop,h_450,w_600,x_0,y_1/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/mh3k7fkf0j7kvvnz9qsc.jpg" height="250" width="250"/></td>
+    <td>
+    	<ol>
+        <li>These Nights</li>
+        <li>Strange Lands</li>
+        <li>Need Is Your Love</li>
+        <li>Tequila Sunrise</li>
+        <li>Walking</li>
+        <li>Breathe</li>
+        <li>Shouldn't Couldn't wouldn't</li>
+        <li>Just Used Music Again</li>
+        <li>Indigo</li>
+        <li>Hopscoptch</li>
+        <li>Calculator</li>
+        <li>LA LA Lost you</li>
+        <li>Hold Me Down</li>
+	<li>I Love You 3000 II</li>
+	<li>2 the face</li>
+	<li>Gold Coast</li>
+        </ol>
+	
+ 
+    
+    </table>
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Joshua Davis. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>

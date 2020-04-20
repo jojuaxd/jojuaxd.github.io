@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Joji</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #28272F;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 600px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 600px;
+  background-color: #6C515A;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #612037;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 350px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+img {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Joji</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="about_him.html">About him</a></li>
+      <li><a href="top_albums.html">Top Albums</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="tour.html">Tour</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+ 	<img src="https://static.billboard.com/files/2020/03/joji-2020-cr-Damien-Maloney-billboard-1548-1585678185-1024x677.jpg"/>
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Joshua Davis. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>

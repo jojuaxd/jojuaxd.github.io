@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Joji</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #28272F;
+  font-family: courier;
+  padding: 30px;
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 1500px;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  font-family: verdana;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  height: 1500px;
+  background-color: #6C515A;
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #612037;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+img {
+	max-height: 100%;
+    max-width: 100%;
+}
+
+p {
+	color: white;
+}
+
+ol {
+	color: white;
+    text-align: left;
+}
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Joji</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="about_him.html">About him</a></li>
+      <li><a href="top_albums.html">Top Albums</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="tour.html">Tour</a></li>
+    </ul>
+    <img src="https://steamuserimages-a.akamaihd.net/ugc/919168785807096587/61026AE6386698EF0BFE7EA8BD08317D522C2C19/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=tru" height=130 width=130 />
+  </nav>
+  
+  <article>
+ 	<h1 style="font-size:50px;color:white;border:10px solid black;">Media</h1>
+    
+    <table align="center">
+    
+    <tr>
+    <td><p>Joji - SLOW DANCING IN THE DARK</p></td>
+    </tr>
+    
+    <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/YU_qjzYAHR0 " frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    <tr>
+    <td><p>Joji - Run</p></td>
+    </tr>
+    
+    <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/K09_5IsgGe8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    <tr>
+    <td><p>Joji - Sanctuary</p></td>
+    </tr>
+    
+    <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/YWN81V7ojOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    </tr>
+    
+    </table>
+    
+  </article>
+  
+</section>
+
+<footer>
+  <i>Copyright &copy; 2020 Joshua davis. All Rights Reserved.</i>
+</footer>
+
+</body>
+</html>
